@@ -23,20 +23,20 @@ namespace Milkshake.Externs.Pixi.Textures
         public extern void UpdateSourceInterest();
 
         [Js(Name = "imageURL")]
-        public extern string ImageURL;
+        public string ImageURL;
         [Js(Name = "source")]
-        public extern ImageData Source;
+        public ImageData Source;
         [Js(Name = "hasLoaded")]
-        public extern bool HasLoaded;
+        public bool HasLoaded;
         [Js(Name = "scaleMode")]
-        public extern ScaleMode ScaleMode;
+        public ScaleMode ScaleMode;
         [Js(Name = "pemultipliedAlpha")]
-        public extern bool PemultipliedAlpha;
+        public bool PemultipliedAlpha;
         [Js(Name = "resolution")]
-        public extern float Resolution;
+        public float Resolution;
         [Js(Name = "width")]
-        public extern int Width;
+        public int Width;
         [Js(Name = "height")]
-        public extern int Height;
+        public int Height;
     }
 }

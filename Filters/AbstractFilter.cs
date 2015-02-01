@@ -2,7 +2,7 @@
 
 namespace Milkshake.Externs.Pixi.Filters
 {
-    [Js(Extern = true, Name = "Pixi.AbstractFilter")]
+    [Js(Extern = true, Name = "PIXI.AbstractFilter")]
     public class AbstractFilter
     {
     }

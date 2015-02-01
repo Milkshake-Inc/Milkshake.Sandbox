@@ -14,10 +14,10 @@ namespace Milkshake.Externs.Pixi.Interaction
         public extern Point GetLocalPosition(DisplayObject displayObject, Point point);
 
         [Js(Name = "originalEvent")]
-        public extern MouseEvent OriginalEvent;
+        public MouseEvent OriginalEvent;
         [Js(Name = "global")]
-        public extern Point Global;
+        public Point Global;
         [Js(Name = "target")]
-        public extern Sprite Target;
+        public Sprite Target;
     }
 }

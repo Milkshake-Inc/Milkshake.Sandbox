@@ -8,7 +8,7 @@ using Milkshake.Externs.Pixi.Textures;
 
 namespace Milkshake.Externs.Pixi.Display
 {
-    [Js(Extern = true, Name = "Pixi.DisplayObject")]
+    [Js(Extern = true, Name = "PIXI.DisplayObject")]
     public class DisplayObject
     {
         [Js(Name = "displayObject")]
@@ -72,44 +72,44 @@ namespace Milkshake.Externs.Pixi.Display
         [Js(Name = "worldVisible")]
         public extern float WorldVisible { get; }
 
-        [Js(Name = "worldVisible")]
-        public extern float Alpha;
-        [Js(Name = "worldVisible")]
-        public extern bool ButtonMode;
-        [Js(Name = "worldVisible")]
-        public extern bool CacheAsBitmap;
-        [Js(Name = "worldVisible")]
-        public extern string DefaultCursor;
+        [Js(Name = "alpha")]
+        public float Alpha;
+        [Js(Name = "buttonMode")]
+        public bool ButtonMode;
+        [Js(Name = "cacheAsBitmap")]
+        public bool CacheAsBitmap;
+        [Js(Name = "defaultCursor")]
+        public string DefaultCursor;
 
-        public extern Rectangle FilterArea;
+        public Rectangle FilterArea;
         [Js(Name = "filters")]
-        public extern List<AbstractFilter> Filters;
+        public List<AbstractFilter> Filters;
         [Js(Name = "hitArea")]
-        public extern dynamic Hitarea;
+        public dynamic Hitarea;
         [Js(Name = "interactive")]
-        public extern bool Interactive;
-        [Js(Name = "mask")]
-        public extern Graphics Mask;
+        public bool Interactive;
+       /* [Js(Name = "mask")]
+        public extern Graphics Mask;*/
 
         [Js(Name = "pivot")]
-        public extern Point Pivot;
+        public Point Pivot;
         [Js(Name = "position")]
-        public extern Point Position;
+        public Point Position;
         [Js(Name = "renderable")]
-        public extern bool Renderable;
+        public bool Renderable;
         [Js(Name = "rotation")]
-        public extern float Rotation;
+        public float Rotation;
         [Js(Name = "scale")]
-        public extern Point Scale;
+        public Point Scale;
         [Js(Name = "visible")]
-        public extern bool Visible;
+        public bool Visible;
 
         [Js(Name = "x")]
-        public extern float X;
+        public float X;
         [Js(Name = "y")]
-        public extern float Y;
+        public float Y;
 
         [Js(Name = "worldTransform")]
-        public extern dynamic WorldTransform;
+        public dynamic WorldTransform;
     }
 }

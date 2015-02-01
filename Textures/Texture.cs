@@ -37,15 +37,15 @@ namespace Milkshake.Externs.Pixi.Textures
 	    public Rectangle Trim;
 
         [Js(Name = "width")]
-        public extern int Width;
+        public int Width;
         [Js(Name = "height")]
-        public extern int Height;
+        public int Height;
 
         [Js(Name = "noFrame")]
-	    public extern bool NoFrame;
+	    public bool NoFrame;
         [Js(Name = "requiresUpdate")]
-	    public extern bool RequiresUpdate;
+	    public bool RequiresUpdate;
         [Js(Name = "valid")]
-	    public extern bool Valid;
+	    public bool Valid;
     }
 }

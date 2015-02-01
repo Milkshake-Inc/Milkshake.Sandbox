@@ -6,7 +6,7 @@ using Milkshake.Externs.Pixi.Textures;
 
 namespace Milkshake.Externs.Pixi.Display
 {
-    [Js(Extern = true, Name = "Pixi.Sprite")]
+    [Js(Extern = true, Name = "PIXI.Sprite")]
     public class Sprite : DisplayObjectContainer
     {
         [Js(Name = "Sprite")]
@@ -21,10 +21,10 @@ namespace Milkshake.Externs.Pixi.Display
         public extern void SetTexture(Texture texture);
 
         [Js(Name = "anchor")]
-        public extern Point Anchor;
+        public Point Anchor;
         [Js(Name = "blendMode")]
-        public extern BlendMode BlendMode;
+        public BlendMode BlendMode;
         [Js(Name = "tint")]
-        public extern int Tint;
+        public int Tint;
     }
 }
