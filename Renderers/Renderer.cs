@@ -9,19 +9,19 @@ namespace Milkshake.Externs.Pixi.Renderers
     public class Renderer
     {
         [Js(Name = "transparent")]
-        public extern bool Transparent;
+        public bool Transparent;
         [Js(Name = "resolution")]
-        public extern float Resolution;
+        public float Resolution;
 
         [Js(Name = "width")]
-        public extern float Width;
+        public float Width;
         [Js(Name = "height")]
-        public extern float Height;
+        public float Height;
 
         [Js(Name = "type")]
-        public extern int Type;
+        public int Type;
         [Js(Name = "view")]
-        public extern HTMLCanvasElement View;
+        public HTMLCanvasElement View;
 
         [Js(Name = "render")]
         public extern void Render(Stage stage);
