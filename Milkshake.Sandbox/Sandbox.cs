@@ -20,7 +20,7 @@ namespace Milkshake.Sandbox
 
         public Sandbox()
         {
-            Stage = new Stage();
+            Stage = new Stage(0x00FFFF);
 
             Renderer = Pixi.AutoDetectRenderer(1024, 768);
 
@@ -31,8 +31,8 @@ namespace Milkshake.Sandbox
             Sloth = new Sprite(texture);
 
             Sloth.Anchor.X = Sloth.Anchor.Y = 0.5f;
-            Sloth.Position.X = 500;
-            Sloth.Position.Y = 300;
+            Sloth.Position.X = 512;
+            Sloth.Position.Y = 384;
 
             Stage.AddChild(Sloth);
 
@@ -47,5 +47,5 @@ namespace Milkshake.Sandbox
 
             Js.de.requestAnimationFrame(new Action(Render));
         }
-
+    }
 }

@@ -5,7 +5,7 @@ using Milkshake.Externs.Pixi.Geom;
 
 namespace Milkshake.Externs.Pixi.Display
 {
-    [Js(Extern = true, Name = "PIXI.Stage")]
+    [Js(Extern = true, Name = "Pixi.Stage")]
     public class Stage : DisplayObjectContainer
     {
         [Js(Name = "Stage")]

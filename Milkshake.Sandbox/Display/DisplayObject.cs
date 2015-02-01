@@ -8,7 +8,7 @@ using Milkshake.Externs.Pixi.Textures;
 
 namespace Milkshake.Externs.Pixi.Display
 {
-    [Js(Extern = true, Name = "PIXI.DisplayObject")]
+    [Js(Extern = true, Name = "Pixi.DisplayObject")]
     public class DisplayObject
     {
         [Js(Name = "displayObject")]
@@ -73,43 +73,43 @@ namespace Milkshake.Externs.Pixi.Display
         public extern float WorldVisible { get; }
 
         [Js(Name = "alpha")]
-        public float Alpha;
+        public extern float Alpha;
         [Js(Name = "buttonMode")]
-        public bool ButtonMode;
+        public extern bool ButtonMode;
         [Js(Name = "cacheAsBitmap")]
-        public bool CacheAsBitmap;
+        public extern bool CacheAsBitmap;
         [Js(Name = "defaultCursor")]
-        public string DefaultCursor;
+        public extern string DefaultCursor;
 
-        public Rectangle FilterArea;
+        public extern Rectangle FilterArea;
         [Js(Name = "filters")]
-        public List<AbstractFilter> Filters;
+        public extern List<AbstractFilter> Filters;
         [Js(Name = "hitArea")]
-        public dynamic Hitarea;
+        public extern dynamic Hitarea;
         [Js(Name = "interactive")]
-        public bool Interactive;
-       /* [Js(Name = "mask")]
+        public extern bool Interactive;
+/*        [Js(Name = "mask")]
         public extern Graphics Mask;*/
 
         [Js(Name = "pivot")]
-        public Point Pivot;
+        public extern Point Pivot;
         [Js(Name = "position")]
-        public Point Position;
+        public extern Point Position;
         [Js(Name = "renderable")]
-        public bool Renderable;
+        public extern bool Renderable;
         [Js(Name = "rotation")]
-        public float Rotation;
+        public extern float Rotation;
         [Js(Name = "scale")]
-        public Point Scale;
+        public extern Point Scale;
         [Js(Name = "visible")]
-        public bool Visible;
+        public extern bool Visible;
 
         [Js(Name = "x")]
-        public float X;
+        public extern float X;
         [Js(Name = "y")]
-        public float Y;
+        public extern float Y;
 
         [Js(Name = "worldTransform")]
-        public dynamic WorldTransform;
+        public extern dynamic WorldTransform;
     }
 }

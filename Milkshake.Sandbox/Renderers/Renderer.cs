@@ -5,23 +5,23 @@ using Milkshake.Externs.Pixi.Display;
 
 namespace Milkshake.Externs.Pixi.Renderers
 {
-    [Js(Extern = true)]
+    [Js(Extern = true, Name="Pixi.Renderer")]
     public class Renderer
     {
         [Js(Name = "transparent")]
-        public bool Transparent;
+        public extern bool Transparent;
         [Js(Name = "resolution")]
-        public float Resolution;
+        public extern float Resolution;
 
         [Js(Name = "width")]
-        public float Width;
+        public extern float Width;
         [Js(Name = "height")]
-        public float Height;
+        public extern float Height;
 
         [Js(Name = "type")]
-        public int Type;
+        public extern int Type;
         [Js(Name = "view")]
-        public HTMLCanvasElement View;
+        public extern HTMLCanvasElement View;
 
         [Js(Name = "render")]
         public extern void Render(Stage stage);

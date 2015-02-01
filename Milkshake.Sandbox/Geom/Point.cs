@@ -11,8 +11,8 @@ namespace Milkshake.Externs.Pixi.Geom
         public extern Point Clone();
 
         [Js(Name = "x")]
-        public float X;
+        public extern float X;
         [Js(Name = "y")]
-        public float Y;
+        public extern float Y;
     }
 }
