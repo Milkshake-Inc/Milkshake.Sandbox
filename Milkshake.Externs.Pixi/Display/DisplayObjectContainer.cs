@@ -3,7 +3,7 @@
 namespace Milkshake.Externs.Pixi.Display
 {
     [Js(Extern = true, Name = "PIXI.DisplayObjectContainer")]
-    public class DisplayObjectContainer
+    public class DisplayObjectContainer : DisplayObject
     {
         [Js(Name = "DisplayObjectContainer")]
         public extern DisplayObjectContainer();
