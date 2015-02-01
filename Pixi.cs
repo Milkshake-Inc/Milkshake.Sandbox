@@ -1,5 +1,7 @@
 ﻿using DuoCode.Runtime;
 
+using Milkshake.Externs.Pixi.Renderers;
+
 namespace Milkshake.Externs.Pixi
 {
     [Js(Extern = true, Name = "PIXI")]
@@ -9,6 +11,6 @@ namespace Milkshake.Externs.Pixi
         public static extern void SayHello();
 
         [Js(Name = "autoDetectRenderer")]
-        public static extern dynamic AutoDetectRenderer(int width, int height);
+        public static extern Renderer AutoDetectRenderer(int width, int height);
     }
 }

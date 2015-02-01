@@ -14,6 +14,11 @@ namespace Milkshake.Externs.Pixi.Textures
 	    public extern static void AddTextureToCache(Texture texture, String id);
         [Js(Name = "removeTextureFromCache")]
 	    public extern static void RemoveTextureFromCache(String id);
+
+        [Js(Name = "fromCanvas")]
+        public extern static Texture FromCanvas(HTMLCanvasElement canvas);
+        [Js(Name = "fromImage")]
+        public extern static Texture FromImage(dynamic image);
         [Js(Name = "fromFrame")]
 	    public extern static Texture FromFrame(String frameId);
 
