@@ -31,16 +31,20 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Filters\AbstractFilter.cs" />
     <Compile Include="Consts\BlendMode.cs" />
     <Compile Include="Consts\ScaleMode.cs" />
     <Compile Include="Display\DisplayObject.cs" />
     <Compile Include="Display\DisplayObjectContainer.cs" />
+    <Compile Include="Display\Sprite.cs" />
+    <Compile Include="Display\Stage.cs" />
     <Compile Include="Geom\Matrix.cs" />
     <Compile Include="Geom\Point.cs" />
     <Compile Include="Geom\Rectangle.cs" />
     <Compile Include="Interaction\InteractionData.cs" />
     <Compile Include="Pixi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\Renderer.cs" />
     <Compile Include="Textures\BaseTexture.cs" />
     <Compile Include="Textures\Texture.cs" />
   </ItemGroup>
